@@ -1,0 +1,25 @@
+2022-02-13T14:26:19.2762041Z ##[group]Run ./
+2022-02-13T14:26:19.2762373Z with:
+2022-02-13T14:26:19.2762568Z ##[endgroup]
+2022-02-13T14:26:19.3036938Z internal/modules/cjs/loader.js:800
+2022-02-13T14:26:19.3039942Z     throw err;
+2022-02-13T14:26:19.3040779Z     ^
+2022-02-13T14:26:19.3041166Z 
+2022-02-13T14:26:19.3041988Z Error: Cannot find module '@actions/core'
+2022-02-13T14:26:19.3042590Z Require stack:
+2022-02-13T14:26:19.3043632Z - /home/runner/work/azure-search-index/azure-search-index/dist/index.js
+2022-02-13T14:26:19.3044427Z     at Function.Module._resolveFilename (internal/modules/cjs/loader.js:797:15)
+2022-02-13T14:26:19.3045470Z     at Function.Module._load (internal/modules/cjs/loader.js:690:27)
+2022-02-13T14:26:19.3046054Z     at Module.require (internal/modules/cjs/loader.js:852:19)
+2022-02-13T14:26:19.3046751Z     at require (internal/modules/cjs/helpers.js:74:18)
+2022-02-13T14:26:19.3047592Z     at Object.<anonymous> (/home/runner/work/azure-search-index/azure-search-index/dist/index.js:25:27)
+2022-02-13T14:26:19.3048471Z     at Module._compile (internal/modules/cjs/loader.js:959:30)
+2022-02-13T14:26:19.3049113Z     at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+2022-02-13T14:26:19.3049892Z     at Module.load (internal/modules/cjs/loader.js:815:32)
+2022-02-13T14:26:19.3050484Z     at Function.Module._load (internal/modules/cjs/loader.js:727:14)
+2022-02-13T14:26:19.3051267Z     at Function.Module.runMain (internal/modules/cjs/loader.js:1047:10) {
+2022-02-13T14:26:19.3051884Z   code: 'MODULE_NOT_FOUND',
+2022-02-13T14:26:19.3052524Z   requireStack: [
+2022-02-13T14:26:19.3053292Z     '/home/runner/work/azure-search-index/azure-search-index/dist/index.js'
+2022-02-13T14:26:19.3053987Z   ]
+2022-02-13T14:26:19.3054600Z }
